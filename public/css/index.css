@@ -4,6 +4,94 @@
     box-sizing: border-box;
 }
 
-background:color{
-    color: bisque;
-} 
+body {
+    background: linear-gradient(80deg, rgb(39, 39, 189), rgb(0, 0, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;   
+}
+
+body > main{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    border: 2px solid var(--textoClaro);
+}
+
+body > main > h2{
+    color: var(--textoClaro);
+    font-size: 1.5rem;
+}
+
+body > main > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pass{
+    text-decoration: none;
+    color: var(--textoClaro);
+    font-size: 1.1rem;
+}
+
+body > main > div > label{
+    color: var(--textoClaro);
+    font-size: 20px;
+    color: var(--textoClaro);
+}
+
+body > main > div > input{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 1rem;
+    background: transparent;
+    border: 2px solid var(--textoClaro);
+    color: var(--textoClaro)
+    
+}
+
+body > main > div > .enviar{
+    background-color: var(--textoClaro);
+    color: var(--textoOscuro);
+    width: 150px;
+    height: 30px;
+}
+
+
+
+
+/*
+
+body > main > div > label{
+    width: 100%;
+    padding: 5px 1px;
+    margin: 8px 1px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: var(--fondoBlanco);
+    border: 2px solid transparent;
+}
+
+body > main > div > input{
+    width: 100%;
+    padding: 5px 1px;
+    margin: 8px 1px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: var(--fondoBlanco);
+    border: 2px solid white; Borde blanco por defecto
+    transition: border-color 0.5s; Transición suave para el cambio de color
+}*/
