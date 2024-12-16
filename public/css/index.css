@@ -1,7 +1,9 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--tipografia);
 }
 
 body {
@@ -13,7 +15,8 @@ body {
     height: 100vh;   
 }
 
-body > main{
+body main{
+    background-color: rgba(128, 128, 128, 0.253);;
     width: 400px;
     height: 400px;
     display: flex;
@@ -25,12 +28,12 @@ body > main{
     border: 2px solid var(--textoClaro);
 }
 
-body > main > h2{
+body main h2{
     color: var(--textoClaro);
     font-size: 1.5rem;
 }
 
-body > main > div{
+body main div{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,13 +47,14 @@ body > main > div{
     font-size: 1.1rem;
 }
 
-body > main > div > label{
+body main div label{
     color: var(--textoClaro);
     font-size: 20px;
     color: var(--textoClaro);
+    align-items: start;
 }
 
-body > main > div > input{
+body main  div  input{
     width: 250px;
     height: 40px;
     padding: 10px;
@@ -61,37 +65,18 @@ body > main > div > input{
     
 }
 
-body > main > div > .enviar{
+body main div .enviar{
     background-color: var(--textoClaro);
     color: var(--textoOscuro);
     width: 150px;
-    height: 30px;
-}
-
-
-
-
-/*
-
-body > main > div > label{
-    width: 100%;
-    padding: 5px 1px;
-    margin: 8px 1px;
+    height: 40px;
+    border: none;
     border-radius: 1rem;
-    box-sizing: border-box;
-    background-color: transparent;
-    color: var(--fondoBlanco);
-    border: 2px solid transparent;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+
 }
 
-body > main > div > input{
-    width: 100%;
-    padding: 5px 1px;
-    margin: 8px 1px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background-color: transparent;
-    color: var(--fondoBlanco);
-    border: 2px solid white; Borde blanco por defecto
-    transition: border-color 0.5s; Transición suave para el cambio de color
-}*/
+
+

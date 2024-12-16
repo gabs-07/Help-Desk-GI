@@ -1,0 +1,32 @@
+/* Variables de los estilps de la pagina*/
+
+:root{
+    /*Tiulos y subtitulos*/
+
+    --fontIncised: 'Incised901NordItalicBT', serif;
+    --fontAvenirHeavy: 'AvenirHeavy', sans-serif;
+    --fontHelveticaBold: 'HelveticaBold', sans-serif;
+    --fontAvenirBlack: 'AvenirBlack', sans-serif;
+
+    /*Cuerpo de Texto*/
+    --fontHelveticaLight: 'HelveticaLight', sans-serif;
+    --fontHelveticaRegular: 'HelveticaRegular', sans-serif;
+    --fontAvenirRoman: 'AvenirRoman', sans-serif;
+
+    /*Paleta de colores*/
+    
+    /* PANTONE 315 U */
+    --colorPantoneUno: #00677f;
+    
+    /* PANTONE 315 C */
+    --colorPantoneDos: #00677f;
+    
+    /* PANTONE Blanco */
+    --colorPantoneBlanco: #ffffff;
+    
+    /* PANTONE Gris */
+    --colorPantoneGris: #cbcbcb;
+    
+    /* PANTONE Negro */
+    --colorPantoneNegro: #000000;    
+}
