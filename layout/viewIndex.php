@@ -5,6 +5,8 @@
         echo '<link rel="stylesheet" href="public/css/paleta.css">';
         echo '<link rel="stylesheet" href="public/css/index.css">';
         echo '<link rel="stylesheet" href="public/css/barraDeNavegacion.css">';
+        echo '<link rel="stylesheet" href="public/css/presentacion.css">';
+
 
         include ('lib/barraDeNavegacion.php');
         include ('lib/presentacion.php');
