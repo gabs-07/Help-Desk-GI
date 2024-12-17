@@ -29,4 +29,8 @@
     
     /* PANTONE Negro */
     --colorPantoneNegro: #000000;    
+
+    /*texto*/
+    --textoClaro:#ffffff;
+    --textoOscuro:#000000;
 }

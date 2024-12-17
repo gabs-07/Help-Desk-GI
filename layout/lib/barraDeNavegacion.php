@@ -1,7 +1,5 @@
 <nav>
-
-    <img src="" alt="">
-    <a href=""><p>Grupo indi</p></a>
-    <a href="">Iniciar Sesión</a>
-
+    <a href="index.php"><img src="src/image/log/logoIndiVUno.png" alt="Logo - Grupo Indi"></a>
+    <a class="login" href=""><p>Iniciar Sesión</p></a>
 </nav>
+
