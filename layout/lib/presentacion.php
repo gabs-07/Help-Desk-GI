@@ -1,6 +1,6 @@
 <section>
 
-    <h2>Beinvenido al soprte de Teckets de Grupo Indi.</h2>
+    <h2>Solicitud de Servicio o Reparación de Sistemas y Tecnología.</h2>
 
     <div>
         <div class="presentacion">
